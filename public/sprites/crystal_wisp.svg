@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+  <!-- Shadow -->
+  <ellipse cx="12" cy="23" rx="5" ry="1.5" fill="#00000022"/>
+  <!-- Outer glow -->
+  <circle cx="12" cy="12" r="11" fill="#4488ff" opacity="0.08"/>
+  <circle cx="12" cy="12" r="9" fill="#66aaff" opacity="0.1"/>
+  <!-- Crystal body - diamond shape -->
+  <path d="M12,2 L20,12 L12,22 L4,12 Z" fill="#88bbff" opacity="0.7"/>
+  <!-- Crystal facets -->
+  <path d="M12,2 L16,12 L12,22" fill="#aaddff" opacity="0.4"/>
+  <path d="M12,2 L12,22" stroke="#ffffff" stroke-width="0.5" opacity="0.3"/>
+  <path d="M4,12 L20,12" stroke="#ffffff" stroke-width="0.5" opacity="0.3"/>
+  <!-- Inner glow -->
+  <path d="M12,5 L17,12 L12,19 L7,12 Z" fill="#bbddff" opacity="0.3"/>
+  <!-- Core light -->
+  <circle cx="12" cy="12" r="3" fill="#ddeeff" opacity="0.5"/>
+  <circle cx="12" cy="12" r="1.5" fill="#ffffff" opacity="0.6"/>
+  <!-- Eyes - cute floating in crystal -->
+  <ellipse cx="10" cy="11" rx="1.5" ry="1.8" fill="#ffffff" opacity="0.9"/>
+  <ellipse cx="14" cy="11" rx="1.5" ry="1.8" fill="#ffffff" opacity="0.9"/>
+  <circle cx="10.3" cy="11" r="0.9" fill="#2244aa"/>
+  <circle cx="14.3" cy="11" r="0.9" fill="#2244aa"/>
+  <circle cx="10.5" cy="10.6" r="0.35" fill="#ffffff"/>
+  <circle cx="14.5" cy="10.6" r="0.35" fill="#ffffff"/>
+  <!-- Mouth - small happy -->
+  <path d="M11,13.5 Q12,14.5 13,13.5" stroke="#4466aa" stroke-width="0.6" fill="none"/>
+  <!-- Sparkle particles -->
+  <circle cx="5" cy="6" r="0.8" fill="#88ccff" opacity="0.6"/>
+  <circle cx="19" cy="7" r="0.6" fill="#aaddff" opacity="0.5"/>
+  <circle cx="3" cy="14" r="0.5" fill="#66aaff" opacity="0.4"/>
+  <circle cx="21" cy="15" r="0.7" fill="#88bbff" opacity="0.45"/>
+  <circle cx="7" cy="20" r="0.5" fill="#aaccff" opacity="0.35"/>
+  <circle cx="17" cy="19" r="0.6" fill="#99bbff" opacity="0.4"/>
+  <!-- Top sparkle -->
+  <path d="M12,0.5 L12.5,1.5 L12,2.5 L11.5,1.5 Z" fill="#ffffff" opacity="0.6"/>
+</svg>

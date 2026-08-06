@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 28" width="24" height="28">
+  <!-- Shadow -->
+  <ellipse cx="12" cy="27" rx="5" ry="1.5" fill="#00000022"/>
+  <!-- Vine roots - wavy bottom -->
+  <path d="M8,22 Q7,26 9,27" stroke="#338844" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+  <path d="M12,22 Q12,27 13,27" stroke="#2a7733" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+  <path d="M16,22 Q17,26 15,27" stroke="#338844" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+  <!-- Body - plant bulb -->
+  <ellipse cx="12" cy="16" rx="6" ry="7" fill="#44aa55"/>
+  <!-- Body highlight -->
+  <ellipse cx="10" cy="14" rx="3" ry="4" fill="#55cc66" opacity="0.4"/>
+  <!-- Leaf arms -->
+  <path d="M5,13 Q2,10 4,7" stroke="#44aa55" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+  <path d="M4,7 L5,6 L3,7.5" fill="#55cc66"/>
+  <path d="M19,13 Q22,10 20,7" stroke="#44aa55" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+  <path d="M20,7 L19,6 L21,7.5" fill="#55cc66"/>
+  <!-- Head petals -->
+  <ellipse cx="8" cy="7" rx="3" ry="2" fill="#66dd77" transform="rotate(-30,8,7)"/>
+  <ellipse cx="16" cy="7" rx="3" ry="2" fill="#66dd77" transform="rotate(30,16,7)"/>
+  <ellipse cx="12" cy="5.5" rx="2.5" ry="2.5" fill="#77ee88"/>
+  <!-- Face -->
+  <circle cx="12" cy="12" r="4.5" fill="#55bb66"/>
+  <!-- Eyes - glowing -->
+  <ellipse cx="10" cy="11.5" rx="1.8" ry="2" fill="#ffffff" opacity="0.9"/>
+  <ellipse cx="14" cy="11.5" rx="1.8" ry="2" fill="#ffffff" opacity="0.9"/>
+  <circle cx="10.3" cy="11.5" r="1" fill="#226633"/>
+  <circle cx="14.3" cy="11.5" r="1" fill="#226633"/>
+  <circle cx="10.5" cy="11" r="0.4" fill="#ffffff"/>
+  <circle cx="14.5" cy="11" r="0.4" fill="#ffffff"/>
+  <!-- Mouth -->
+  <path d="M10.5,14 Q12,15.5 13.5,14" stroke="#227733" stroke-width="0.7" fill="none"/>
+  <!-- Cheek blush -->
+  <circle cx="8" cy="13" r="1.2" fill="#ff8866" opacity="0.25"/>
+  <circle cx="16" cy="13" r="1.2" fill="#ff8866" opacity="0.25"/>
+  <!-- Sparkle -->
+  <circle cx="6" cy="5" r="0.8" fill="#aaffbb" opacity="0.5"/>
+  <circle cx="18" cy="4" r="0.6" fill="#88ffaa" opacity="0.4"/>
+</svg>

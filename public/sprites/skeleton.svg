@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 28" width="24" height="28">
+  <!-- Shadow -->
+  <ellipse cx="12" cy="27" rx="6" ry="1.5" fill="#00000022"/>
+  <!-- Legs - stubby cartoon -->
+  <rect x="8" y="21" width="3.5" height="5" rx="1.5" fill="#eeddcc"/>
+  <rect x="12.5" y="21" width="3.5" height="5" rx="1.5" fill="#ddd0bb"/>
+  <!-- Body - round cartoon torso -->
+  <rect x="7" y="12" width="10" height="10" rx="4" fill="#eeeedd"/>
+  <!-- Ribs - cute style -->
+  <line x1="9" y1="15" x2="15" y2="15" stroke="#ccccbb" stroke-width="0.8" stroke-linecap="round"/>
+  <line x1="9.5" y1="17" x2="14.5" y2="17" stroke="#ccccbb" stroke-width="0.8" stroke-linecap="round"/>
+  <line x1="10" y1="19" x2="14" y2="19" stroke="#ccccbb" stroke-width="0.8" stroke-linecap="round"/>
+  <!-- Head - big round cartoon skull -->
+  <circle cx="12" cy="8" r="6.5" fill="#f5f0e0"/>
+  <!-- Eye sockets - cute round -->
+  <circle cx="9.5" cy="7.5" r="2.5" fill="#443333"/>
+  <circle cx="14.5" cy="7.5" r="2.5" fill="#443333"/>
+  <!-- Eye glow - bright -->
+  <circle cx="9.5" cy="7.5" r="1.2" fill="#ff5555"/>
+  <circle cx="14.5" cy="7.5" r="1.2" fill="#ff5555"/>
+  <circle cx="10" cy="7" r="0.4" fill="#ffaaaa"/>
+  <circle cx="15" cy="7" r="0.4" fill="#ffaaaa"/>
+  <!-- Nose -->
+  <path d="M11.5,9.5 L11,11 L13,11 L12.5,9.5" fill="#443333"/>
+  <!-- Jaw - smile -->
+  <path d="M9,12 Q12,13.5 15,12" stroke="#bbbbaa" stroke-width="0.8" fill="none"/>
+  <!-- Teeth -->
+  <rect x="10" y="11.5" width="1" height="1.2" rx="0.3" fill="#f5f0e0"/>
+  <rect x="13" y="11.5" width="1" height="1.2" rx="0.3" fill="#f5f0e0"/>
+  <!-- Arms - stubby -->
+  <rect x="2" y="13" width="5.5" height="3" rx="1.5" fill="#eeeedd"/>
+  <rect x="16.5" y="13" width="5.5" height="3" rx="1.5" fill="#eeeedd"/>
+  <!-- Sword -->
+  <rect x="21" y="5" width="2" height="13" rx="0.8" fill="#bbbbbb"/>
+  <rect x="19.5" y="11" width="5" height="2" rx="0.8" fill="#999988"/>
+  <rect x="21.3" y="5" width="0.8" height="10" fill="#dddddd" opacity="0.4"/>
+  <!-- Helmet crack detail -->
+  <path d="M14,3 L15,5.5" stroke="#ccbbaa" stroke-width="0.5" fill="none"/>
+</svg>

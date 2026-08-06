@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 12" width="12" height="12">
+  <!-- Arcane missile glow -->
+  <circle cx="6" cy="6" r="5" fill="#44ddff" opacity="0.3"/>
+  <circle cx="6" cy="6" r="3.5" fill="#66eeff" opacity="0.6"/>
+  <circle cx="6" cy="6" r="2" fill="#ffffff" opacity="0.9"/>
+  <!-- Sparkle -->
+  <line x1="6" y1="1" x2="6" y2="3" stroke="#aaeeff" stroke-width="0.5"/>
+  <line x1="6" y1="9" x2="6" y2="11" stroke="#aaeeff" stroke-width="0.5"/>
+  <line x1="1" y1="6" x2="3" y2="6" stroke="#aaeeff" stroke-width="0.5"/>
+  <line x1="9" y1="6" x2="11" y2="6" stroke="#aaeeff" stroke-width="0.5"/>
+</svg>

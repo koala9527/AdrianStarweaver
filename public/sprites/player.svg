@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32">
+  <!-- Shadow -->
+  <ellipse cx="16" cy="30" rx="8" ry="2" fill="#00000033"/>
+  <!-- Robe body - rounded cartoon style -->
+  <path d="M10,16 Q10,14 12,14 L20,14 Q22,14 22,16 L23,27 Q23,29 21,29 L11,29 Q9,29 9,27 Z" fill="#4455bb"/>
+  <!-- Robe highlight -->
+  <path d="M12,14 L14,14 L13,27 L11,27 Q10,27 10,26 Z" fill="#5566cc" opacity="0.5"/>
+  <!-- Belt -->
+  <rect x="11" y="20" width="10" height="2" rx="1" fill="#8866cc"/>
+  <circle cx="16" cy="21" r="1.5" fill="#ffdd55"/>
+  <!-- Head - big round cartoon head -->
+  <circle cx="16" cy="10" r="7" fill="#ffe0b2"/>
+  <!-- Cheek blush -->
+  <circle cx="11.5" cy="11.5" r="1.5" fill="#ffaa88" opacity="0.4"/>
+  <circle cx="20.5" cy="11.5" r="1.5" fill="#ffaa88" opacity="0.4"/>
+  <!-- Eyes - big cartoon eyes -->
+  <ellipse cx="13.5" cy="9.5" rx="2" ry="2.2" fill="#ffffff"/>
+  <ellipse cx="18.5" cy="9.5" rx="2" ry="2.2" fill="#ffffff"/>
+  <circle cx="14" cy="9.5" r="1.3" fill="#3344aa"/>
+  <circle cx="19" cy="9.5" r="1.3" fill="#3344aa"/>
+  <circle cx="14.3" cy="9" r="0.5" fill="#ffffff"/>
+  <circle cx="19.3" cy="9" r="0.5" fill="#ffffff"/>
+  <!-- Eyebrows -->
+  <path d="M11.5,7 Q13.5,6 15,7" stroke="#5544aa" stroke-width="0.8" fill="none"/>
+  <path d="M17,7 Q18.5,6 20.5,7" stroke="#5544aa" stroke-width="0.8" fill="none"/>
+  <!-- Mouth - small smile -->
+  <path d="M14,12.5 Q16,14 18,12.5" stroke="#cc7755" stroke-width="0.8" fill="none"/>
+  <!-- Wizard hat -->
+  <path d="M16,0 L8,10 Q8,11 9,11 L23,11 Q24,11 24,10 Z" fill="#3344aa"/>
+  <path d="M16,0 L12,8 L16,7 Z" fill="#4455cc" opacity="0.4"/>
+  <!-- Hat brim -->
+  <ellipse cx="16" cy="10.5" rx="10" ry="2" fill="#3a4fbb"/>
+  <!-- Hat star -->
+  <circle cx="16" cy="4.5" r="2" fill="#ffdd55"/>
+  <circle cx="16" cy="4.5" r="1" fill="#ffffff" opacity="0.6"/>
+  <!-- Staff -->
+  <rect x="24" y="10" width="2" height="16" rx="1" fill="#aa8844"/>
+  <!-- Staff orb -->
+  <circle cx="25" cy="9" r="3.5" fill="#44ddff" opacity="0.8"/>
+  <circle cx="25" cy="9" r="2" fill="#88eeff" opacity="0.6"/>
+  <circle cx="24" cy="8" r="1" fill="#ffffff" opacity="0.7"/>
+  <!-- Right arm (sealed arm with rune glow) -->
+  <rect x="6" y="16" width="5" height="3" rx="1.5" fill="#4455bb"/>
+  <rect x="5" y="16.5" width="3" height="2" rx="1" fill="#ffe0b2"/>
+  <circle cx="6" cy="17.5" r="1" fill="#aa44ff" opacity="0.6"/>
+  <!-- Left arm -->
+  <rect x="21" y="16" width="5" height="3" rx="1.5" fill="#4455bb"/>
+</svg>

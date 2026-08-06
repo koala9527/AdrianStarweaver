@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 28" width="24" height="28">
+  <!-- Shadow -->
+  <ellipse cx="12" cy="27" rx="6" ry="1.5" fill="#00000022"/>
+  <!-- Ghostly tail - wavy bottom -->
+  <path d="M6,18 Q6,26 8,25 Q10,24 12,26 Q14,24 16,25 Q18,26 18,18" fill="#6688cc" opacity="0.5"/>
+  <!-- Body - translucent ghost -->
+  <ellipse cx="12" cy="14" rx="7" ry="9" fill="#7799dd" opacity="0.7"/>
+  <!-- Inner glow -->
+  <ellipse cx="12" cy="13" rx="5" ry="7" fill="#99bbff" opacity="0.3"/>
+  <!-- Head highlight -->
+  <ellipse cx="10" cy="9" rx="3" ry="2" fill="#aaccff" opacity="0.4"/>
+  <!-- Eyes - eerie but cute -->
+  <ellipse cx="9" cy="12" rx="2.5" ry="2.8" fill="#ffffff" opacity="0.9"/>
+  <ellipse cx="15" cy="12" rx="2.5" ry="2.8" fill="#ffffff" opacity="0.9"/>
+  <circle cx="9.5" cy="12.5" r="1.5" fill="#2244aa"/>
+  <circle cx="15.5" cy="12.5" r="1.5" fill="#2244aa"/>
+  <circle cx="9.8" cy="12" r="0.5" fill="#ffffff"/>
+  <circle cx="15.8" cy="12" r="0.5" fill="#ffffff"/>
+  <!-- Mouth - spooky O -->
+  <ellipse cx="12" cy="17" rx="2" ry="1.5" fill="#334488" opacity="0.6"/>
+  <!-- Water drips -->
+  <ellipse cx="7" cy="22" rx="1" ry="2" fill="#6688cc" opacity="0.4"/>
+  <ellipse cx="17" cy="23" rx="0.8" ry="1.5" fill="#6688cc" opacity="0.3"/>
+  <ellipse cx="12" cy="24" rx="0.8" ry="1.8" fill="#6688cc" opacity="0.35"/>
+  <!-- Wispy arms -->
+  <path d="M5,13 Q3,11 4,9" stroke="#7799dd" stroke-width="2" fill="none" opacity="0.5" stroke-linecap="round"/>
+  <path d="M19,13 Q21,11 20,9" stroke="#7799dd" stroke-width="2" fill="none" opacity="0.5" stroke-linecap="round"/>
+  <!-- Eerie particles -->
+  <circle cx="5" cy="8" r="1" fill="#aaccff" opacity="0.4"/>
+  <circle cx="20" cy="10" r="0.8" fill="#aaccff" opacity="0.3"/>
+  <circle cx="3" cy="15" r="0.6" fill="#88aaee" opacity="0.3"/>
+</svg>

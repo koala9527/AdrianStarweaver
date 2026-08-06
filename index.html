@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+  <title>艾德里安·星织 — Adrian Starweaver</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    html, body { width: 100%; height: 100%; overflow: hidden; background: #111; }
+    #game-container { width: 100vw; height: 100vh; position: fixed; top: 0; left: 0; }
+
+    /* Landscape prompt overlay */
+    #landscape-prompt {
+      display: none;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100vw;
+      height: 100vh;
+      background: rgba(0, 0, 0, 0.95);
+      z-index: 9999;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      color: #fff;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      text-align: center;
+      padding: 20px;
+    }
+
+    #landscape-prompt .icon {
+      font-size: 80px;
+      margin-bottom: 20px;
+      animation: rotate 2s ease-in-out infinite;
+    }
+
+    #landscape-prompt .text {
+      font-size: 18px;
+      line-height: 1.6;
+    }
+
+    @keyframes rotate {
+      0%, 100% { transform: rotate(0deg); }
+      50% { transform: rotate(90deg); }
+    }
+  </style>
+</head>
+<body>
+  <div id="landscape-prompt">
+    <div class="icon">📱</div>
+    <div class="text">请旋转设备至横屏模式<br>Please rotate to landscape</div>
+  </div>
+  <div id="game-container"></div>
+  <script>
+    // Detect mobile device
+    function isMobile() {
+      var ua = navigator.userAgent.toLowerCase();
+      return /mobile|android|iphone|ipad|ipod|blackberry|iemobile|opera mini/i.test(ua);
+    }
+
+    // Check orientation and show/hide prompt
+    function checkOrientation() {
+      if (!isMobile()) return;
+
+      var prompt = document.getElementById('landscape-prompt');
+      var isPortrait = window.innerHeight > window.innerWidth;
+
+      if (isPortrait) {
+        prompt.style.display = 'flex';
+      } else {
+        prompt.style.display = 'none';
+      }
+    }
+
+    // Ensure game container fits actual visible area
+    function resizeGame() {
+      var c = document.getElementById('game-container');
+      c.style.width = window.innerWidth + 'px';
+      c.style.height = window.innerHeight + 'px';
+    }
+
+    window.addEventListener('resize', function() {
+      checkOrientation();
+      resizeGame();
+    });
+
+    window.addEventListener('orientationchange', function() {
+      setTimeout(function() {
+        checkOrientation();
+        resizeGame();
+      }, 100);
+    });
+
+    checkOrientation();
+    resizeGame();
+  </script>
+  <script type="module" src="/src/main.ts"></script>
+</body>
+</html>
