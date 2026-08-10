@@ -39,7 +39,7 @@
 
 ![自行转换为微信小程序后的游戏运行效果](docs/images/wechat-miniprogram-gameplay.jpg)
 
-下面是项目实际运行中的探索、战斗与剧情界面，展示了法师角色、史莱姆敌人、虚拟摇杆、等级 HUD 和剧情文本面板：
+下面是项目实际运行效果：
 
 ![项目实际运行效果：探索与战斗界面](docs/images/gameplay-runtime.jpg)
 
