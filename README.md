@@ -6,6 +6,8 @@
 
 一款在 AI Game 黑客松中诞生的浏览器生存动作游戏：玩家只负责移动，法术自动释放，AI 则参与升级决策、角色台词与叙事表达。
 
+**学 AI，上 [LINUX DO](https://linux.do/)。认可并感谢这个开放、友善、持续分享的技术社区。**
+
 [![Phaser](https://img.shields.io/badge/Phaser-3.90-211F1F?logo=phaser)](https://phaser.io/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.9-3178C6?logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
 [![Vite](https://img.shields.io/badge/Vite-6.4-646CFF?logo=vite&logoColor=white)](https://vite.dev/)
@@ -30,6 +32,16 @@
 比赛中先完成玩法、系统、故事和表现文档，真正用于编码与联调的时间约 6 小时。AI 很快搭出了可运行骨架，但地图、碰撞遮罩、角色图标、技能差异、受击反馈和整体节奏仍依赖大量人工调整。项目最终完成了可玩的黑客松 Demo，并获得比赛奖项。
 
 完整的工具选择、开发过程与踩坑记录见：[一次 AI 游戏黑客松复盘](aritcle/article_optimized.md)。
+
+## 微信小程序转换效果
+
+下图是我自行将本项目转换并适配为微信小程序后的实际运行效果，并非原始 H5 版本的官方截图：
+
+![自行转换为微信小程序后的游戏运行效果](docs/images/wechat-miniprogram-gameplay.jpg)
+
+下面是项目实际运行中的探索、战斗与剧情界面，展示了法师角色、史莱姆敌人、虚拟摇杆、等级 HUD 和剧情文本面板：
+
+![项目实际运行效果：探索与战斗界面](docs/images/gameplay-runtime.jpg)
 
 ## 核心玩法
 
