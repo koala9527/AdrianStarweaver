@@ -6,8 +6,6 @@
 
 一款在 AI Game 黑客松中诞生的浏览器生存动作游戏：玩家只负责移动，法术自动释放，AI 则参与升级决策、角色台词与叙事表达。
 
-**学 AI，上 [LINUX DO](https://linux.do/)。**
-
 [![Phaser](https://img.shields.io/badge/Phaser-3.90-211F1F?logo=phaser)](https://phaser.io/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.9-3178C6?logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
 [![Vite](https://img.shields.io/badge/Vite-6.4-646CFF?logo=vite&logoColor=white)](https://vite.dev/)
